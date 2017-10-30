@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+NATIVE FLASH RADIO V3
+DEVELOPED BY SODAH.DE
+-->
+<flashradio>	
+	<THEME COLOR="#0d72bf" STARTVOLUME="75" FONTCOLOR="#ffffff"/>
+	<CHANNEL URL="http://cast.streams.ovh:8008/" TYPE="mpeg" />
+	<RADIO NAME="Now Playing" SCROLL="AUTO" AUTOPLAY="TRUE" DEBUG="FALSE" 
+	SONGTITLEURL="" INFOTEXT="FALSE" INFOLINK="" FIRSTSOLUTION="FLASH" SONGINFORMATIONINTERVAL="20000" />
+	<TITLEFONT FONTNAME="Orbitron" GOOGLEFONT="Orbitron:400:latin,latin-ext" />
+	<SONGFONT FONTNAME="Orbitron" GOOGLEFONT="Orbitron:400:latin,latin-ext" />
+</flashradio>
