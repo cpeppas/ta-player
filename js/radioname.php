@@ -18,7 +18,7 @@ if (isset($_POST['url'])):
 	if ($url == ""):
 		echo "";
 	else:
-		echo utf8_encode(htmlentities(html_entity_decode(readRadioName($url), ENT_QUOTES,"ISO-8859-1")));
+		echo utf8_encode(htmlentities(html_entity_decode(readRadioName($url), ENT_QUOTES | ENT_HTML5,"ISO-8859-1")));
 	endif;
 endif;
 function readRadioName($sURL) {
